@@ -3,44 +3,43 @@
         "name": "Ireth Arwamanë",
         "info": "TN Elf Witch 3",
         "ac": {
-            "normal": 16,
-            "touch": 12,
+            "normal": 18,
+            "touch": 14,
             "flat": 14,
-            "bonuses": "+4 armor, +2 dex"
+            "bonuses": "+4 armor, +4 dex"
         },
         "cmd": {
-            "normal": 14,
-            "flat": 12
+            "normal": 13,
+            "flat": 9
         },
-        "hp": 43,
+        "hp": 13,
         "save": {
-            "fort": "1d20+3",
-            "refl": "1d20+4",
-            "will": "1d20+6"
+            "fort": "1d20+1",
+            "refl": "1d20+5",
+            "will": "1d20+2"
         },
         "ability": {
-            "str": 7,
-			"strMod": -2,
+            "str": 7,			
             "dex": 18,
             "con": 10,
             "int": 19,
             "wis": 8,
             "cha": 7
         },
-        "resist": "acid, cold, electricity, fire, or sonic 5",
+        "resist": "-",
         "speed": "6",
-        "initiative": "1d20+8",
+        "initiative": "1d20+10",
         "melee": [
             {
                 "name": "combat maneuver",
                 "die": [
-                    "1d20+2"
+                    "1d20-1"
                 ]
             },
             {
                 "name": "melee touch",
                 "die": [
-                    "1d20+2"
+                    "1d20-1"
                 ]
             }
         ],
@@ -48,7 +47,7 @@
             {
                 "name": "ranged touch",
                 "die": [
-                    "1d20+4"
+                    "1d20+5"
                 ]
             }
         ],
@@ -85,43 +84,39 @@
         "skills": [
             {
                 "name": "Acrobatics",
-                "die": "1d20+2"
-            },
-            {
-                "name": "Appraise",
-                "die": "1d20+14"
-            },
-            {
-                "name": "Bluff",
-                "die": "1d20-1"
-            },
-            {
-                "name": "Climb",
-                "die": "1d20+0"
-            },
-            {
-                "name": "Craft (Clockwork)",
-                "die": "1d20+11"
-            },
-            {
-                "name": "Craft (Untrained)",
                 "die": "1d20+6"
             },
             {
+                "name": "Appraise",
+                "die": "1d20+6"
+            },
+            {
+                "name": "Bluff",
+                "die": "1d20+0"
+            },
+            {
+                "name": "Climb",
+                "die": "1d20+2"
+            },            
+            {
+                "name": "Craft (Untrained)",
+                "die": "1d20+4"
+            },
+            {
                 "name": "Diplomacy",
-                "die": "1d20-1"
+                "die": "1d20+0"
             },
             {
                 "name": "Disguise",
-                "die": "1d20-1"
+                "die": "1d20+0"
             },
             {
                 "name": "Escape Artist",
-                "die": "1d20+2"
+                "die": "1d20+9"
             },
             {
                 "name": "Fly",
-                "die": "1d20+10"
+                "die": "1d20+6"
             },
             {
                 "name": "Heal",
@@ -129,59 +124,39 @@
             },
             {
                 "name": "Intimidate",
-                "die": "1d20-1"
+                "die": "1d20+0"
             },
             {
                 "name": "Knowledge (Arcana)",
-                "die": "1d20+14"
-            },
-            {
-                "name": "Knowledge (Dungeoneering)",
-                "die": "1d20+14"
-            },
-            {
-                "name": "Knowledge (Engineering)",
-                "die": "1d20+10"
-            },
-            {
-                "name": "Knowledge (Geography)",
-                "die": "1d20+10"
-            },
+                "die": "1d20+12"
+            },                                    
             {
                 "name": "Knowledge (History)",
-                "die": "1d20+10"
-            },
-            {
-                "name": "Knowledge (Local)",
-                "die": "1d20+10"
-            },
+                "die": "1d20+12"
+            },            
             {
                 "name": "Knowledge (Nature)",
-                "die": "1d20+10"
-            },
-            {
-                "name": "Knowledge (Nobility)",
-                "die": "1d20+10"
-            },
+                "die": "1d20+11"
+            },            
             {
                 "name": "Knowledge (Planes)",
-                "die": "1d20+14"
+                "die": "1d20+7"
             },
             {
                 "name": "Knowledge (Religion)",
-                "die": "1d20+14"
+                "die": "1d20+7"
             },
             {
                 "name": "Perception",
-                "die": "1d20+12"
+                "die": "1d20+8"
             },
             {
                 "name": "Perform (Untrained)",
-                "die": "1d20-1"
+                "die": "1d20+0"
             },
             {
                 "name": "Ride",
-                "die": "1d20+2"
+                "die": "1d20+6"
             },
             {
                 "name": "Sense Motive",
@@ -189,11 +164,11 @@
             },
             {
                 "name": "Spellcraft",
-                "die": "1d20+14"
+                "die": "1d20+12"
             },
             {
                 "name": "Stealth",
-                "die": "1d20+2"
+                "die": "1d20+6"
             },
             {
                 "name": "Survival",
@@ -202,22 +177,25 @@
             {
                 "name": "Swim",
                 "die": "1d20+0"
-            }
+            },
+			{
+                "name": "Use Magic Device",
+                "die": "1d20+0"
+            }			
         ],
         "languages": [
-            "Common",
-            "Dwarven",
+            "Common",            
             "Elven",
-            "Gnome",
-            "Goblin",
-            "Halfling",
-            "Orc"
+            "Abysal",
+            "Celestial",
+            "Dwarven",
+            "Undercommon"
         ],
         "spells": [
             {
-                "name": "Abjurer",
-                "cl": "5th",
-                "con": "1d20+11",
+                "name": "Witch",
+                "cl": "3th",
+                "con": "1d20+7",
                 "sr": "1d20+5",
                 "spellLevels": [
                     3,
@@ -225,44 +203,32 @@
                     1,
                     0
                 ],
-                "opposition": "necromancy, enchantment",
+                "opposition": "-",
                 "prepared": {
-                    "level": [
+                    "level": [                        
                         {
-                            "info": "3rd (2+1) DC 19",
+                            "info": "2nd (1+1) DC 16",							
                             "spells": [
-                                "dispel magic",
-                                "haste",
-                                "summon monster iii"
+                                "blindness deafness",
+                                "lipstitch"                                                              
                             ]
                         },
                         {
-                            "info": "2nd (4+1) DC 18",
+                            "info": "1st (2+1) DC 15",							
                             "spells": [
-                                "fog cloud",
-                                "invisibility",
-                                "mage armor|extended|cast",
+                                "mage armor",
+                                "sleep",
+                                "cure light wounds",                                
                                 "unprepared-sp",
                                 "unprepared"
                             ]
                         },
                         {
-                            "info": "1st (5+1) DC 17",
-                            "spells": [
-                                "feather fall",
-                                "grease",
-                                "see alignment",
-                                "shield",
-                                "unprepared",
-                                "unprepared"
-                            ]
-                        },
-                        {
-                            "info": "0th (4) DC 16",
+                            "info": "0th (4) DC 14",
                             "spells": [
                                 "dancing lights",
                                 "detect magic",
-                                "mage hand",
+                                "stabilize",
                                 "read magic"
                             ]
                         }
@@ -278,251 +244,59 @@
                         "type": "unprepared"
                     },
                     {
-                        "name": "ablative sphere",
-                        "level": 3,
-                        "type": "specialty",
-                        "link": "a/ablative-sphere"
+                        "name": "blindness deafness",
+                        "level": 2,                        
+                        "link": "b/blindness-deafness"
+                    },                    
+                    {
+                        "name": "cure moderate wounds",
+                        "level": 2,                        
+                        "link": "c/cure-moderate-wounds"
                     },
                     {
-                        "name": "arcane sight",
-                        "level": 3,
-                        "link": "a/arcane-sight"
-                    },
-                    {
-                        "name": "armor lock",
-                        "level": 3,
-                        "link": "a/armor-lock"
-                    },
-                    {
-                        "name": "blink",
-                        "level": 3,
-                        "link": "b/blink"
-                    },
-                    {
-                        "name": "dispel magic",
-                        "level": 3,
-                        "type": "specialty",
-                        "link": "d/dispel-magic"
-                    },
-                    {
-                        "name": "explosive runes",
-                        "level": 3,
-                        "type": "specialty",
-                        "link": "e/explosive-runes"
-                    },
-                    {
-                        "name": "fly",
-                        "level": 3,
-                        "link": "f/fly"
-                    },
-                    {
-                        "name": "force punch",
-                        "level": 3,
-                        "link": "f/force-punch"
-                    },
-                    {
-                        "name": "haste",
-                        "level": 3,
-                        "link": "h/haste"
-                    },
-                    {
-                        "name": "magic circle against alignment",
-                        "level": 3,
-                        "link": "m/magic-circle-against-evil"
-                    },
-                    {
-                        "name": "nondetection",
-                        "level": 3,
-                        "type": "specialty",
-                        "link": "n/nondetection"
-                    },
-                    {
-                        "name": "phantom driver",
-                        "level": 3,
-                        "link": "p/phantom-driver"
-                    },
-                    {
-                        "name": "phantom steed",
-                        "level": 3,
-                        "link": "p/phantom-steed"
-                    },
-                    {
-                        "name": "protection from energy",
-                        "level": 3,
-                        "type": "specialty",
-                        "link": "p/protection-from-energy"
-                    },
-                    {
-                        "name": "resist energy, communal",
-                        "level": 3,
-                        "type": "specialty",
-                        "link": "r/resist-energy"
-                    },
-                    {
-                        "name": "slow",
-                        "level": 3,
-                        "link": "s/slow"
-                    },
-                    {
-                        "name": "spell turning, lesser",
-                        "level": 3,
-                        "type": "specialty hr",
-                        "link": "s/spell-turning"
-                    },
-                    {
-                        "name": "summon monster iii",
-                        "level": 3,
-                        "link": "s/summon-monster"
-                    },
-                    {
-                        "name": "tongues",
-                        "level": 3,
-                        "link": "t/tongues"
-                    },
-                    {
-                        "name": "arcane lock",
-                        "level": 2,
-                        "type": "specialty",
-                        "link": "a/arcane-lock"
-                    },
-                    {
-                        "name": "book ward",
-                        "level": 2,
-                        "type": "specialty",
-                        "link": "b/book_ward"
-                    },
-                    {
-                        "name": "darkness",
-                        "level": 2,
-                        "link": "d/darkness"
-                    },
-                    {
-                        "name": "darkvision",
-                        "level": 2,
-                        "link": "d/darkvision"
-                    },
-                    {
-                        "name": "endure elements, communal",
-                        "level": 2,
-                        "type": "specialty",
-                        "link": "e/endure-elements"
-                    },
-                    {
-                        "name": "false life",
-                        "level": 2,
-                        "type": "opposition",
-                        "link": "f/false-life"
-                    },
-                    {
-                        "name": "fog cloud",
-                        "level": 2,
-                        "link": "f/fog-cloud"
-                    },
+                        "name": "lipstitch",
+                        "level": 2,                        
+                        "link": "l/lipstitch"
+                    },                   
                     {
                         "name": "glitterdust",
                         "level": 2,
                         "link": "g/glitterdust"
                     },
                     {
-                        "name": "invisibility",
+                        "name": "web",
                         "level": 2,
-                        "link": "i/invisibility"
+                        "link": "w/web"
+                    },                  
+                    {
+                        "name": "burning hands",
+                        "level": 1,                        
+                        "link": "b/burning-hands"
                     },
                     {
-                        "name": "knock",
-                        "level": 2,
-                        "link": "k/knock"
-                    },
-                    {
-                        "name": "levitate",
-                        "level": 2,
-                        "link": "l/levitate"
-                    },
-                    {
-                        "name": "obscure object",
-                        "level": 2,
-                        "type": "specialty",
-                        "link": "o/obscure-object"
-                    },
-                    {
-                        "name": "protection from alignment, communal",
-                        "level": 2,
-                        "type": "specialty",
-                        "link": "p/protection-from-evil"
-                    },
-                    {
-                        "name": "resist energy",
-                        "level": 2,
-                        "type": "specialty",
-                        "link": "r/resist-energy"
-                    },
-                    {
-                        "name": "rope trick",
-                        "level": 2,
-                        "link": "r/rope-trick"
-                    },
-                    {
-                        "name": "see invisibility",
-                        "level": 2,
-                        "link": "s/see-invisibility"
-                    },
-                    {
-                        "name": "alarm",
+                        "name": "cure light wounds",
                         "level": 1,
-                        "type": "specialty",
-                        "link": "a/alarm"
+                        "link": "c/cure-light-wounds"
                     },
                     {
-                        "name": "ant haul",
+                        "name": "cause fear",
                         "level": 1,
-                        "link": "a/ant-haul"
+                        "link": "c/cause-fear"
                     },
                     {
-                        "name": "blood money",
+                        "name": "ear-piercing scream",
                         "level": 1,
-                        "link": "b/blood-money"
+                        "link": "e/ear-piercing-scream"
                     },
                     {
-                        "name": "crafter's fortune",
+                        "name": "frostbite",
                         "level": 1,
-                        "link": "c/crafter-s-fortune"
+                        "link": "f/frostbite"
                     },
                     {
-                        "name": "detect secret doors",
-                        "level": 1,
-                        "link": "d/detect-secret-doors"
-                    },
-                    {
-                        "name": "endure elements",
-                        "level": 1,
-                        "type": "specialty",
-                        "link": "e/endure-elements"
-                    },
-                    {
-                        "name": "erase",
-                        "level": 1,
-                        "link": "e/erase"
-                    },
-                    {
-                        "name": "feather fall",
-                        "level": 1,
-                        "link": "f/feather-fall"
-                    },
-                    {
-                        "name": "grease",
-                        "level": 1,
-                        "link": "g/grease"
-                    },
-                    {
-                        "name": "hold portal",
-                        "level": 1,
-                        "type": "specialty",
-                        "link": "h/hold-portal"
-                    },
-                    {
-                        "name": "identify",
-                        "level": 1,
-                        "link": "i/identify"
+                        "name": "ill omen",
+                        "level": 1,                        
+                        "link": "i/ill-omen"
                     },
                     {
                         "name": "mage armor",
@@ -530,32 +304,30 @@
                         "link": "m/mage-armor"
                     },
                     {
-                        "name": "magic aura",
+                        "name": "memory lapse",
                         "level": 1,
-                        "link": "m/magic-aura"
+                        "link": "m/memory-lapse"
                     },
                     {
-                        "name": "magic missile",
+                        "name": "obscuring mist",
                         "level": 1,
-                        "link": "m/magic-missile"
+                        "link": "o/obscuring-mist"
                     },
                     {
-                        "name": "protection from alignment",
-                        "level": 1,
-                        "type": "specialty",
-                        "link": "p/protection-from-evil"
+                        "name": "ray of sickening",
+                        "level": 1,                        
+                        "link": "r/ray-of-sickening"
                     },
                     {
-                        "name": "see alignment",
+                        "name": "reduce person",
                         "level": 1,
-                        "link": "s/see-alignment"
-                    },
+                        "link": "r/reduce-person"
+                    },                    
                     {
-                        "name": "shield",
+                        "name": "sleep",
                         "level": 1,
-                        "type": "specialty",
-                        "link": "s/shield"
-                    },
+                        "link": "s/sleep"
+                    },                    
                     {
                         "name": "acid splash",
                         "level": 0,
