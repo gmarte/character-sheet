@@ -8,11 +8,11 @@
 				<span ng-if="c.ac.bonuses">({{c.ac.bonuses}})</span>
 			</p>
 			<p id="cmd">
-				<b>CMD</b> {{c.cmd.normal}},
+				<b>CMD</b> {{c.cmd.normal + c.ability.strMod }},
 				<b>flat-footed</b> {{c.cmd.flat}}<span ng-if="c.cmd.bonuses">, </span>
 				<span ng-if="c.cmd.bonuses">({{c.cmd.bonuses}})</span>
 			</p>
-			<p><b>HP</b> {{c.hp}}</p>
+			<p><b>HP</b> {{c.hp  }}</p>
 			<p id="saves">
 				<b>Fortitude</b> <roll name="Fortitude" die="{{c.save.fort}}"></roll>,
 				<b>Reflex</b>    <roll name="Reflex" die="{{c.save.refl}}"></roll>,

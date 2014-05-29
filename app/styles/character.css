@@ -2,7 +2,6 @@ blockquote p {
 	font-size: 14px;
 	font-weight: normal;
 }
-
 .roll p {
 	margin: 0;
 }
@@ -51,4 +50,10 @@ blockquote p {
 
 .cast:hover {
 	text-decoration: line-through underline;
+}
+
+/* gmarte changes */
+
+hr {
+	border-top: 3px solid #eee;
 }
