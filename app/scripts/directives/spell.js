@@ -34,6 +34,9 @@ angular.module('charactersApp').directive('spell',
 				};
 
 				scope.link = function() {
+					var newName = scope.name.replace(" ","-");
+					var ini = scope.name.substring(0,1);
+					scope.data.link = ini + "/" + newName;
 					if (scope.data.link) {
 						return true;
 					}

@@ -197,8 +197,7 @@
                 "cl": "3th",
                 "con": "1d20+7",
                 "sr": "1d20+5",
-                "spellLevels": [
-                    3,
+                "spellLevels": [                    
                     2,
                     1,
                     0
@@ -246,7 +245,7 @@
                     {
                         "name": "blindness deafness",
                         "level": 2,                        
-                        "link": "b/blindness-deafness"
+                        "link": ""
                     },                    
                     {
                         "name": "cure moderate wounds",
@@ -424,7 +423,7 @@
         ],
         "slas": [
             {
-                "name": "Abjurer",
+                "name": "Witch",
                 "list": [
                     {
                         "name": "protective ward",
