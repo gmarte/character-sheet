@@ -8,8 +8,8 @@
 				<span ng-if="c.ac.bonuses">({{c.ac.bonuses}})</span>
 			</p>
 			<p id="cmd">
-				<b>CMD</b> {{c.cmd.normal}},
-				<b>flat-footed</b> {{c.cmd.flat}}<span ng-if="c.cmd.bonuses">, </span>
+				<b>CMD</b> {{getCmd(getBab(c.level,c.progression),ablMod(c.ability.str),ablMod(c.ability.dex),c.size,0)}},
+				<b>flat-footed</b> {{getCmd(getBab(c.level,c.progression),ablMod(c.ability.str),0,c.size,0)}}<span ng-if="c.cmd.bonuses">, </span>
 				<span ng-if="c.cmd.bonuses">({{c.cmd.bonuses}})</span>
 			</p>
 			<p><b>HP</b> {{c.hp  }}</p>
@@ -47,7 +47,7 @@
 			<!-- NEEDS MORE STILL -->
 			<div ng-if="c.slas">
 				<div ng-repeat="Class in c.slas">
-					<p><b>{{Class.name}} Spell-Like Abilities (Hex)</b></p>
+					<p><b>{{Class.name}} Spell-Like Abilities</b></p>
 					<ul class="list-unstyled spells">
 						<li ng-repeat="sla in Class.list">
 							<p>

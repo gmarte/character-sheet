@@ -2,7 +2,8 @@
     {
         "name": "Ireth Arwamanë",
 		"level": 3,
-		"progresion": "SB",
+		"size": 0,
+		"progression": "SB",
         "info": "TN Elf Witch 3",
         "ac": {
             "normal": 18,
@@ -238,11 +239,13 @@
                 "known": [
                     {
                         "name": "unprepared-sp",
-                        "type": "specialty unprepared"
+                        "type": "specialty unprepared",
+						"link": ""
                     },
                     {
                         "name": "unprepared",
-                        "type": "unprepared"
+                        "type": "unprepared",
+						"link": ""
                     },
                     {
                         "name": "blindness deafness",

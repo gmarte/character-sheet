@@ -8,6 +8,32 @@ angular.module('charactersApp').controller('CharacterCtrl', [
 		$http.get('characters/' + $routeParams.characterId + '.json').success(function(data) {
 			$scope.character = data;
 		});
+		$scope.getBab = function (level,progression) {
+			var bab = 0;
+			switch(progression){
+				case "FB": 
+					bab = level;
+				break;
+				case "MB": 
+					bab = Math.floor(level * 0.75);
+				break;
+				case "SB":
+					bab = Math.floor(level / 2);
+				break;			
+			}
+			return bab;
+		};
+		$scope.getCmd = function (bab, str, dex, size, deflection ) {
+			var cmd = 10 + bab + str + dex + size + deflection;
+			return cmd;
+		};
+		$scope.getCmb = function (bab, str, size ) {
+			var cmd = bab + str + size;
+			return cmd;
+		};
+		$scope.ablMod = function (score) {
+			return Math.floor((score-10)/2);						
+		};
 		$scope.getCheck = function (score) {
 			var mod = Math.floor((score-10)/2);
 			if (mod >= 0) {
