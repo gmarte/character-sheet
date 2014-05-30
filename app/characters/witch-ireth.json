@@ -250,173 +250,173 @@
                     {
                         "name": "cure moderate wounds",
                         "level": 2,                        
-                        "link": "c/cure-moderate-wounds"
+                        "link": ""
                     },
                     {
                         "name": "lipstitch",
                         "level": 2,                        
-                        "link": "l/lipstitch"
+                        "link": ""
                     },                   
                     {
                         "name": "glitterdust",
                         "level": 2,
-                        "link": "g/glitterdust"
+                        "link": ""
                     },
                     {
                         "name": "web",
                         "level": 2,
-                        "link": "w/web"
+                        "link": ""
                     },                  
                     {
                         "name": "burning hands",
                         "level": 1,                        
-                        "link": "b/burning-hands"
+                        "link": ""
                     },
                     {
                         "name": "cure light wounds",
                         "level": 1,
-                        "link": "c/cure-light-wounds"
+                        "link": ""
                     },
                     {
                         "name": "cause fear",
                         "level": 1,
-                        "link": "c/cause-fear"
+                        "link": ""
                     },
                     {
                         "name": "ear-piercing scream",
                         "level": 1,
-                        "link": "e/ear-piercing-scream"
+                        "link": ""
                     },
                     {
                         "name": "frostbite",
                         "level": 1,
-                        "link": "f/frostbite"
+                        "link": ""
                     },
                     {
                         "name": "ill omen",
                         "level": 1,                        
-                        "link": "i/ill-omen"
+                        "link": ""
                     },
                     {
                         "name": "mage armor",
                         "level": 1,
-                        "link": "m/mage-armor"
+                        "link": ""
                     },
                     {
                         "name": "memory lapse",
                         "level": 1,
-                        "link": "m/memory-lapse"
+                        "link": ""
                     },
                     {
                         "name": "obscuring mist",
                         "level": 1,
-                        "link": "o/obscuring-mist"
+                        "link": ""
                     },
                     {
                         "name": "ray of sickening",
                         "level": 1,                        
-                        "link": "r/ray-of-sickening"
+                        "link": ""
                     },
                     {
                         "name": "reduce person",
                         "level": 1,
-                        "link": "r/reduce-person"
+                        "link": ""
                     },                    
                     {
                         "name": "sleep",
                         "level": 1,
-                        "link": "s/sleep"
+                        "link": ""
                     },                    
                     {
                         "name": "acid splash",
                         "level": 0,
-                        "link": "a/acid-splash"
+                        "link": ""
                     },
                     {
                         "name": "arcane mark",
                         "level": 0,
-                        "link": "a/arcane-mark"
+                        "link": ""
                     },
                     {
                         "name": "dancing lights",
                         "level": 0,
-                        "link": "d/dancing-lights"
+                        "link": ""
                     },
                     {
                         "name": "detect magic",
                         "level": 0,
-                        "link": "d/detect-magic"
+                        "link": ""
                     },
                     {
                         "name": "detect poison",
                         "level": 0,
-                        "link": "d/detect-poison"
+                        "link": ""
                     },
                     {
                         "name": "flare",
                         "level": 0,
-                        "link": "f/flare"
+                        "link": ""
                     },
                     {
                         "name": "ghost sound",
                         "level": 0,
-                        "link": "g/ghost-sound"
+                        "link": ""
                     },
                     {
                         "name": "haunted fey aspect",
                         "level": 0,
-                        "link": "h/haunted-fey-aspect"
+                        "link": ""
                     },
                     {
                         "name": "light",
                         "level": 0,
-                        "link": "l/light"
+                        "link": ""
                     },
                     {
                         "name": "mage hand",
                         "level": 0,
-                        "link": "m/mage-hand"
+                        "link": ""
                     },
                     {
                         "name": "mending",
                         "level": 0,
-                        "link": "m/mending"
+                        "link": ""
                     },
                     {
                         "name": "message",
                         "level": 0,
-                        "link": "m/message"
+                        "link": ""
                     },
                     {
                         "name": "open/close",
                         "level": 0,
-                        "link": "o/open-close"
+                        "link": ""
                     },
                     {
                         "name": "prestidigitation",
                         "level": 0,
-                        "link": "p/prestidigitation"
+                        "link": ""
                     },
                     {
                         "name": "ray of frost",
                         "level": 0,
-                        "link": "r/ray-of-frost"
+                        "link": ""
                     },
                     {
                         "name": "read magic",
                         "level": 0,
-                        "link": "r/read-magic"
+                        "link": ""
                     },
                     {
                         "name": "resistance",
                         "level": 0,
                         "type": "specialty",
-                        "link": "r/resistance"
+                        "link": ""
                     },
                     {
                         "name": "spark",
                         "level": 0,
-                        "link": "s/spark"
+                        "link": ""
                     }
                 ]
             }
@@ -436,7 +436,7 @@
         ]
     },
     {
-        "name": "Nerm",
+        "name": "Rhaegar",
         "info": "TN Raven Familiar",
         "ac": {
             "normal": 17,
