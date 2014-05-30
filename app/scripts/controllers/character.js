@@ -28,8 +28,8 @@ angular.module('charactersApp').controller('CharacterCtrl', [
 			return cmd;
 		};
 		$scope.getCmb = function (bab, str, size ) {
-			var cmd = bab + str + size;
-			return cmd;
+			var cmb = bab + str + size;
+			return cmb;
 		};
 		$scope.ablMod = function (score) {
 			return Math.floor((score-10)/2);						
